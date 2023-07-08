@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Georama', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif, 'montserrat-bold';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'montserrat-bold', 'Courier New',
+    monospace;
+}
+@font-face {
+  font-family: 'Georama'; 
+  src: url('../src/assets/fonts/Georama-SemiBold.ttf');
+}
+@font-face {
+  font-family: "Quantum Latin W03 Bold";
+  src: url("../src/assets/fonts/Quantum-Latin-Bold.ttf");
+}
+@font-face {
+  font-family: 'GeoramaBold'; 
+  src: url('../src/assets/fonts/Georama-ExtraBold.ttf');
+}
+.sleep {
+  width: 100%;
+  background: linear-gradient(270deg, #F8149B 0%, #B115FF 99.99%, rgba(196, 196, 196, 0) 100%);
+  opacity: 0.5;
+  padding-top: 69.5px !important;
+  padding-bottom: 69.5px !important;
+}
