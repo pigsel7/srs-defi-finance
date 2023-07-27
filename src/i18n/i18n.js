@@ -38,11 +38,11 @@ i18n.use(initReactI18next).init({
                     INSTAKE: "in Stake",
                     CONNECT: "Connect Wallet",
                     HELPSTAKE1:
-                        "Your deposit will be locked for 45 days. However, the rewards will always be available for withdrawal. When withdrawing tokens, a commission may be charged, up to ten percent",
+                        "Your deposit will be locked for 15 days. However, the rewards will always be available for withdrawal. When withdrawing tokens, a commission may be charged, up to ten percent",
                     HELPSTAKE2:
-                        "Add Liquidity to $TURBO/BNB pair, get LP tokens, stake LP tokens, and earn $TURBO! You can always withdraw the reward, but the LP will be locked for 45 days.",
+                        "Add Liquidity to $TURBO/BNB pair, get LP tokens, stake LP tokens, and earn $TURBO! You can always withdraw the reward, but the LP will be locked for 15 days.",
                     HELPSTAKE3:
-                        "Add Liquidity to $TURBO/BNB pair, get LP tokens, stake LP tokens, and earn $BUSD! You can always withdraw the reward, but the LP will be locked for 45 days.",
+                        "Add Liquidity to $TURBO/BNB pair, get LP tokens, stake LP tokens, and earn $BUSD! You can always withdraw the reward, but the LP will be locked for 15 days.",
                     HELPAPR: "APR is not fixed and can change constantly",
                     SOON: "Soon",
                     HELPSOON:

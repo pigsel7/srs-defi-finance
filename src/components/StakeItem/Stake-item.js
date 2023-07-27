@@ -429,7 +429,7 @@ export const StakeItem = ({
       </StyledStakeItemRowWithButton>
       {version == "1" ? <StyledStakeItemRowWithButton>
           <StyledStakeItemButton onClick={ approved ? () => {} : () => {} } activeButton={approved} style={{ width: '100%' }}>{/*approved ? handleStake : () => {}*/}
-          {"SOON"}{/*t(STAKE.STAKE)*/}
+          {t("STAKE.STAKE")}
           </StyledStakeItemButton>
       </StyledStakeItemRowWithButton> : version == "2" ?
       <StyledStakeItemRowWithButton>
