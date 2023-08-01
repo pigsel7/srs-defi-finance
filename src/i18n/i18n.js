@@ -21,10 +21,10 @@ i18n.use(initReactI18next).init({
                 BACK: "Back",
                 STAKE: {
                     STAKE_TITLE1: "Racing staking $TURBO",
-                    STAKE_TITLE2: "Earn BUSD $TURBO/BNB",
-                    STAKE_TITLE3: "Earn TURBO $TURBO/BNB",
+                    STAKE_TITLE2: "Stake LP $TURBO/ETH",
+                    STAKE_TITLE3: "Stake LP $TURBO/ETH",
                     STAKE_TITLE25: "EARN $TURBO",
-                    STAKE_TITLE35: "EARN $BUSD",
+                    STAKE_TITLE35: "EARN $USDT",
                     APR: "APR",
                     EARNED: "Earned",
                     REWARD: "Reward",
@@ -42,7 +42,7 @@ i18n.use(initReactI18next).init({
                     HELPSTAKE2:
                         "Add Liquidity to $TURBO/BNB pair, get LP tokens, stake LP tokens, and earn $TURBO! You can always withdraw the reward, but the LP will be locked for 15 days.",
                     HELPSTAKE3:
-                        "Add Liquidity to $TURBO/BNB pair, get LP tokens, stake LP tokens, and earn $BUSD! You can always withdraw the reward, but the LP will be locked for 15 days.",
+                        "Add Liquidity to $TURBO/BNB pair, get LP tokens, stake LP tokens, and earn $USDT! You can always withdraw the reward, but the LP will be locked for 15 days.",
                     HELPAPR: "APR is not fixed and can change constantly",
                     SOON: "Soon",
                     HELPSOON:
@@ -87,7 +87,7 @@ i18n.use(initReactI18next).init({
                     HELPSTAKE2:
                         "Добавляйте ликвидность к паре $TURBO/BNB, получайте токены LP, размещайте токены LP и зарабатывайте $TURBO! Вы всегда можете снять награду, но LP будет заблокирован на 45 дней.",
                     HELPSTAKE3:
-                        "Добавьте ликвидность к паре $TURBO/BNB, получите токены LP, сделайте ставку на токены LP и заработайте BUSD! Вы всегда можете снять награду, но LP будет заблокирован на 45 дней.",
+                        "Добавьте ликвидность к паре $TURBO/BNB, получите токены LP, сделайте ставку на токены LP и заработайте USDT! Вы всегда можете снять награду, но LP будет заблокирован на 45 дней.",
                     HELPAPR:
                         "Ставка не является фиксированным и может постоянно меняться",
                     SOON: "Cкоро",

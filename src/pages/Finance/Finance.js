@@ -129,7 +129,7 @@ export const Finance = ({
                 <StakeItem
                     key="3"
                     version="3"
-                    earnedText="BUSD"
+                    earnedText="USDT"
                     activeButton={false}
                     onUseConnection={handleUseConnection}
                     account={account}

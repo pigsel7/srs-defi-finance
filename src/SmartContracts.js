@@ -21,13 +21,13 @@ export class SC {
     static tokenInst2;
     static tokenInst3;
     static config = {
-        mainChainId: 56,
-        tokenContractAddress: '0xDc3541806D651eC79bA8639a1b495ACf503eB2Dd',
-        tokenContractAddress2: '0x59a3d931bdc9410ede80793f9bb2a782765d2dfb',
-        stakingContractAddress: '0xB18f8D065FF530A8c74b29ad231e9ba9b6921d52',
-        stakingContractV2Address: '0xa67052fAc1511348FbA0DA4bae7995e230FD6F14',
-        stakingContractV3Address: '0x80f43f10e76544Cb91Fe4149043DC443b12ef051',
-        mainWallet: '0x8B4754ae99F1e595481029c6835C6931442f5f02',
+        mainChainId: 1,
+        tokenContractAddress: '0x6A5432fE9a2150Dc16e6C7354Bc5B115609Fd71f',
+        tokenContractAddress2: '0x6A5432fE9a2150Dc16e6C7354Bc5B115609Fd71f',
+        stakingContractAddress: '0x6211A56eaa0053dC61e826A09Dd43bA555A71d8d',
+        stakingContractV2Address: '0x6211A56eaa0053dC61e826A09Dd43bA555A71d8d',
+        stakingContractV3Address: '0x6211A56eaa0053dC61e826A09Dd43bA555A71d8d',
+        mainWallet: '0x07c1398c01f972Cd70E9eE8c52Ca29A3484Da7Ed',
         timestamp: 1648163253
     };
 

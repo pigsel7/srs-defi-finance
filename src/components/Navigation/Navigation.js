@@ -80,7 +80,7 @@ export const Navigation = ({ handleBurgerClick }) => {
           <div style={{ "margin-left": "auto" }}>
               <StyledStakeItemBuy
                   activeButton={true}
-                  href="https://pancakeswap.finance/swap?outputCurrency=0xDc3541806D651eC79bA8639a1b495ACf503eB2Dd"
+                  href="https://app.uniswap.org/#/swap?&chain=mainnet&use=v2&outputCurrency=0x6A5432fE9a2150Dc16e6C7354Bc5B115609Fd71f"
                   style={{ textDecoration: "none" }}
               >
                   <p className="text">{t("STAKE.BUY")}</p>

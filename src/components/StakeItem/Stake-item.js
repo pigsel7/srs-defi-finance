@@ -440,8 +440,8 @@ export const StakeItem = ({
       :null}
       {version == "2" ? 
       <StyledStakeItemRowWithButton>
-          <StyledStakeItemButton onClick={() => window.open('https://pancakeswap.finance/add/BNB/0xDc3541806D651eC79bA8639a1b495ACf503eB2Dd', '_blank')} activeButton={ true } style={{ width: '100%' }}>
-              {t("Add Liquidity $TURBO/BNB")}
+          <StyledStakeItemButton onClick={() => window.open('https://app.uniswap.org/#/add/v2/ETH/0x6A5432fE9a2150Dc16e6C7354Bc5B115609Fd71f', '_blank')} activeButton={ true } style={{ width: '100%' }}>
+              {t("Add Liquidity $TURBO/ETH")}
           </StyledStakeItemButton>
       </StyledStakeItemRowWithButton>
       : null}
@@ -498,7 +498,7 @@ export const StakeItem = ({
      </div>
      <div>
      <StyledStakeItemButton activeButton={ approved && canHarvest } onClick={ approved && canHarvest ? harvest : () => {} }  style={{'margin-bottom': '4vh', 'textDecoration': 'none'}}>
-        {t("WITHDRAW $BUSD")}
+        {t("WITHDRAW $USDT")}
       </StyledStakeItemButton>
      <StyledStakeItemButton activeButton={ approved && canWithdraw} onClick={canWithdraw ? withdraw : () => {}}>
         {t("STAKE.WITHDRAW2")}
@@ -514,8 +514,8 @@ export const StakeItem = ({
           </StyledStakeItemButton>
    </StyledStakeItemRowWithButton>
    <StyledStakeItemRowWithButton>
-        <StyledStakeItemButton onClick={() => window.open('https://pancakeswap.finance/add/BNB/0xDc3541806D651eC79bA8639a1b495ACf503eB2Dd', '_blank')} activeButton={ true } style={{ width: '100%' }}>
-              {t("Add Liquidity $TURBO/BNB")}
+        <StyledStakeItemButton onClick={() => window.open('https://app.uniswap.org/#/add/v2/ETH/0x6A5432fE9a2150Dc16e6C7354Bc5B115609Fd71f', '_blank')} activeButton={ true } style={{ width: '100%' }}>
+              {t("Add Liquidity $TURBO/ETH")}
         </StyledStakeItemButton>
         </StyledStakeItemRowWithButton>
       <StyledStakeItemRowWithButton>
