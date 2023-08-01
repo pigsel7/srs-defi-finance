@@ -111,30 +111,18 @@ const StyledBgDecT = styled.div``;
 
 
 const networks = {
-    bsc: {
-        chainId: `0x${Number(56).toString(16)}`,
-        chainName: "Binance Smart Chain Mainnet",
+    eth: {
+        chainId: `0x${Number(1).toString(16)}`,
+        chainName: "Ethereum Mainnet",
         nativeCurrency: {
-            name: "Binance Chain Native Token",
-            symbol: "BNB",
+            name: "Ethereum Native Token",
+            symbol: "ETH",
             decimals: 18
         },
         rpcUrls: [
-            "https://bsc-dataseed1.binance.org",
-            "https://bsc-dataseed2.binance.org",
-            "https://bsc-dataseed3.binance.org",
-            "https://bsc-dataseed4.binance.org",
-            "https://bsc-dataseed1.defibit.io",
-            "https://bsc-dataseed2.defibit.io",
-            "https://bsc-dataseed3.defibit.io",
-            "https://bsc-dataseed4.defibit.io",
-            "https://bsc-dataseed1.ninicoin.io",
-            "https://bsc-dataseed2.ninicoin.io",
-            "https://bsc-dataseed3.ninicoin.io",
-            "https://bsc-dataseed4.ninicoin.io",
-            "wss://bsc-ws-node.nariox.org"
+            "https://mainnet.infura.io/v3/c3ce9016311c4a9e81eaaeeb98f96359"
         ],
-        blockExplorerUrls: ["https://bscscan.com"]
+        blockExplorerUrls: ["https://etherscan.com"]
     }
 };
 
@@ -165,7 +153,7 @@ const changeNetwork = async ({ networkName, setError }) => {
         setError(err.message);
     }
 }
- changeNetwork({ networkName: 'bsc', setError: console.log });
+ changeNetwork({ networkName: 'eth', setError: console.log });
  //changeNetwork({ networkName: 'bsc tesnet', setError: console.log });
 
 
